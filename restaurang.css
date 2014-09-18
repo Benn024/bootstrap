@@ -1,9 +1,26 @@
 body{
 
 }
-div { outline: solid thin black;}
+/*div { outline: solid thin black;}*/
 
-.header{
+/*.header{
     margin-top: 40px;
+}*/
+/*nav{
+   width: 1000px;
+   margin: 0 auto;
 }
-
+nav ul{
+    border-top: 4px solid black;
+}
+nav ul li{
+    display: block;
+    float: left;
+    outline: thin solid orange;
+}
+nav ul li a{
+    text-decoration: none;
+}*/
+.navbar li a{
+    width: 136px;
+}
