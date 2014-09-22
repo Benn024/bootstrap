@@ -21,6 +21,31 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
 }*/
-.navbar li a{
-    width: 136px;
+.row img{
+    margin-top: 20px;
 }
+.navbar{
+    margin-top: 20px;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    background-color: white;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+    padding-top: -5px;
+    height: 20px;
+}
+.navbar li a{
+    width: 130px;
+    font-size: 14px;
+}
+.navbar li{
+    padding-left: 0px;
+    margin-left: 5px;
+}
+.navbar #right-link{
+    width: 60px;
+}
+.banner {position: relative; overflow: auto;}
+    .banner li {list-style: none;}
+        .banner ul li {float: left;}        
