@@ -22,30 +22,31 @@ nav ul li a{
     text-decoration: none;
 }*/
 .row img{
-    margin-top: 20px;
+    margin-top: 38px;
 }
-.navbar{
-    margin-top: 20px;
-    border-bottom: 3px solid black;
-    border-top: 3px solid black;
-    background-color: white;
-    border-left: none;
-    border-right: none;
-    border-radius: 0px;
-    padding-top: -5px;
-    height: 20px;
-}
-.navbar li a{
-    width: 130px;
-    font-size: 14px;
-}
-.navbar li{
+
+.container-fluid {
+    padding-right: 0px;
     padding-left: 0px;
-    margin-left: 5px;
+    margin-right: auto;
+    margin-left: auto;
 }
-.navbar #right-link{
-    width: 60px;
+@media (min-width: 768px){
+    .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse{
+        margin-right: -15px;
+        margin-left: -15px; 
+    }
 }
-.banner {position: relative; overflow: auto;}
-    .banner li {list-style: none;}
-        .banner ul li {float: left;}        
+.navbar-default{
+    background-color: white;
+    border: solid 0px transparent;
+    border-top: 4px solid black;
+    border-radius: 0;
+}
+.navbar-default .navbar-nav > li > a{
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, Georgia, sans-serif;
+    line-height: 1.28em;
+    padding: 10px;
+}
