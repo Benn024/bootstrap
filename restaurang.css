@@ -23,8 +23,11 @@ nav ul li a{
 }*/
 .row img{
     margin-top: 38px;
+    
 }
-
+/*div .row{
+    height: 37px;
+} */
 .container-fluid {
     padding-right: 0px;
     padding-left: 0px;
@@ -37,16 +40,39 @@ nav ul li a{
         margin-left: -15px; 
     }
 }
+div.row{
+
+}
+.navbar {
+  position: relative;
+  min-height: 37px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+}
 .navbar-default{
+    margin-top: 34px;
     background-color: white;
     border: solid 0px transparent;
-    border-top: 4px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
     border-radius: 0;
+    margin-bottom: 0px;
 }
+
 .navbar-default .navbar-nav > li > a{
     color: black;
     font-weight: bold;
     font-family: Arial, Helvetica, Georgia, sans-serif;
+    font-size: 14px;
     line-height: 1.28em;
     padding: 10px;
+    width: 134px;
+    text-align: center;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    background-color: black;
+    color: white;
+}
+#sida{
+    width: 136px;
 }
