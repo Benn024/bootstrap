@@ -22,8 +22,11 @@ nav ul li a{
     text-decoration: none;
 }*/
 .row img{
-    margin-top: 38px;
+    /*margin-top: 38px;*/
     
+}
+.head-img{
+    margin-top: 38px;
 }
 /*div .row{
     height: 37px;
@@ -75,4 +78,11 @@ div.row{
 }
 #sida{
     width: 136px;
+}
+.carousel-inner{
+    /*height: 486px;*/
+}
+.sub-heading{
+    width: 209px;
+    padding-left: 0px;
 }
