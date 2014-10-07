@@ -83,6 +83,34 @@ div.row{
     /*height: 486px;*/
 }
 .sub-heading{
-    width: 209px;
-    padding-left: 0px;
+    border-right: 1px dotted black;
+    /*margin-left: px;*/
+}
+.sub-head-1{
+    margin-left: -15px;
+}
+.sub-head-4{
+    border-right: none;
+}
+.section-paragraphs{
+    line-height: 1.28em;
+    margin-top: 20px;
+}
+.section-paragraphs p{
+    padding-top: 8px;
+}
+.section-paragraphs h5{
+    font-weight: bold;
+    color: black;
+}
+.section-paragraphs img{
+    margin-bottom: 15px;
+    padding-top: 8px;
+}
+.link{
+    color: #333;
+    text-decoration: underline;
+}
+.link:hover{
+    color: #333;
 }
